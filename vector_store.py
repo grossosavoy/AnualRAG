@@ -3,7 +3,7 @@ import numpy as np
 from pathlib import Path
 from embeddings import generate_embeddings
 
-def search_faiss(query, faiss_index_path, chunks, top_k=3):
+def search_faiss(query, faiss_index_path, chunks, top_k=5):
     """
     Search the FAISS vector database for similar text chunks.
     

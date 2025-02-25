@@ -14,7 +14,7 @@ if output_markdown.exists():
     print(f"✅ Markdown file already exists: {output_markdown}")
 else:
     print("🔹 Markdown file not found. Extracting from PDF...")
-    pdf_path = "./pdfs/NICE_LTD_anual_report.pdf"
+    pdf_path = "./pdfs/Nykredit_group_anual_report.pdf"
     markdown_file = extract_text(pdf_path)
 
     if markdown_file is None:
